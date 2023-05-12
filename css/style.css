@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav{
+    background-color: #222;
+    height: 11%;
+    width: 100%;
+    position: fixed;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+}
+.nav li{
+    padding-left: 170px;
+        
+}
+#icono-nav{
+    height: 80px;
+}
+
+a:any-link {
+    color: darkgoldenrod;
+}
+a:hover{
+    background-color: azure;
+}
+.div-header{
+    color: darkgoldenrod;
+    background-image: url(./images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
