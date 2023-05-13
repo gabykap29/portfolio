@@ -92,9 +92,10 @@ a{
     list-style: none;
     flex-wrap: wrap;
     margin-top: 20px;
+    padding-right: 80px;
 }
 .div-skills li {
-    font-size: 150px;
+    font-size: 130px;
     padding-left: 150px; 
 }
 .label-iconos{
@@ -107,13 +108,16 @@ a{
 .cursos{
     background-color: #222121;
     padding-left: 80px;
+    padding-right: 80px;
     color: aliceblue;
+    border-bottom: darkgoldenrod solid 1px;
 }
 .cursos ul{
     display: flex;
     list-style: none;
     flex-wrap: wrap;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 .cursos ul li{
     padding-left: 10px;
