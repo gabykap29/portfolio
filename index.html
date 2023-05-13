@@ -5,36 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <!--css-->
     <link rel="stylesheet" href="./css/style.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!--Bloque menu nav-->
     <nav>
         <div class="nav">
             <ul>
                 <li><a href="">Portfolio</a></li>
-                <li><a href="">Sobre mí</a></li>
-                <li><a href="">Skills</a></li>
+                <li><a href="#about-me">Sobre mí</a></li>
+                <li><a href="#skills&tools">Skills</a></li>
                 <li><a href="">Cursos</a></li>
                 <li><a href="">Contacto</a></li>
             </ul>
         </div>
     </nav>
+    <br><br><br><br>
+    <!--bloque header con imagen-->
     <header>
         <div class="div-header">
             <h1 id="name">Gabriel H. M. Acosta</h1>
             <h3 class="hashtag">#Desarrollador de Software</h3>
             <h3 class="hashtag">#Seguridad Informática</h3>
             <h3 class="hashtag">#Técnico Informático</h3>
-            <h3 class="hashtag"#Investigación Digital</h3>
+            <h3 class="hashtag">#Investigación Digital</h3>
+            <div class="iconos">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-reddit"></i></a>
+            </div>
         </div>
     </header>
+    <!--bloque main-->
     <main>
         <article>
-            <section></section>
-            <section></section>
+            <!--Seccion sobre mi-->
+            <section class="about-me" id="about-me">
+                <h2>
+                    Sobre mí
+                </h2>
+                <br>
+                <div>
+                    <img id="perfil"src="./css/images/perfil.jpg" alt="imagen de perfil">
+                </div>
+                <p>
+                    Soy <b>Gabriel Acosta</b>, apasionado de la tecnología e informática, actualmente me encuentro cursando la carrera <b>Tecnicatura superior en Desarrollo de Software Multiplataforma</b>, estudié de manera autodidacta para ser programador backend con Python y Node.Js. 
+                </p>
+                <br>
+                <p>
+                    Me capacito todos los días para llegar a ser <b>DESARROLLADOR FULL STACK</b> para ello, realizo cursos de especialización en paralelo a la carrera que sigo actualmente. 
+                </p>
+                <br>
+                <p>
+                    Me gusta la música del género ROCK/METAL, lo suelo escuchar mientas trabajo, es un hábito conseguido en las experiencias laborales que tube.
+                </p>
+                <br>
+            </section>    
+            <!--seccion skills & tools-->
+            <section class="skills" id="skills&tools">
+                <h2>Skills & Tools</h2>
+                <br>
+                
+            </section>
             <section></section>
         </article>
     </main>
     <footer></footer>
+    <script src="https://kit.fontawesome.com/00169cc5c6.js" crossorigin="anonymous"></script>
 </body>
 </html>
