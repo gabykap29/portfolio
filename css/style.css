@@ -128,3 +128,25 @@ a{
 #git{
     padding-left: 200px;
 }
+.contacto{
+    padding-left: 200px;
+    padding-right: 80px;
+    background-color: rgb(39, 39, 28);
+    color: aliceblue;
+    height: 700px;
+}
+
+.form{
+    width: 960px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#btn-send{
+    background-color: rgb(7, 89, 165);
+    border-radius:5px ;
+    width: 110px;
+}
