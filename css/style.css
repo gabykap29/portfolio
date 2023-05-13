@@ -87,3 +87,35 @@ a{
     /*  el text-decoration es para eliminar el subrayado */
     text-decoration: none;
 }
+.div-skills ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.div-skills li {
+    font-size: 150px;
+    padding-left: 150px; 
+}
+.label-iconos{
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+/*   seccion de cursos    */
+
+.cursos{
+    background-color: #222121;
+    padding-left: 80px;
+    color: aliceblue;
+}
+.cursos ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.cursos ul li{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
