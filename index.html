@@ -93,50 +93,69 @@
                 <h2>Cursos</h2>
                 <div class="cursos-youtube">
                     <ul>
-                        <li><iframe width="350" height="250" src="https://www.youtube.com/embed/Kp4Mvapo5kc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
-                        <li><iframe width="350" height="250" src="https://www.youtube.com/embed/3GymExBkKjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
-                        <li><iframe width="350" height="250" src="https://www.youtube.com/embed/uUdKAYl-F7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
-                        <li><iframe width="350" height="250" src="https://www.youtube.com/embed/z95mZVUcJ-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
-                        <li><iframe width="350" height="250" src="https://www.youtube.com/embed/Y-OhzQpsRwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
-                        <li><iframe width="350" height="250" src="https://www.youtube.com/embed/BhvLIzVL8_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+                        <li><iframe width="330" height="230" src="https://www.youtube.com/embed/Kp4Mvapo5kc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+                        <li><iframe width="330" height="230" src="https://www.youtube.com/embed/3GymExBkKjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+                        <li><iframe width="330" height="230" src="https://www.youtube.com/embed/uUdKAYl-F7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+                        <li><iframe width="330" height="230" src="https://www.youtube.com/embed/z95mZVUcJ-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+                        <li><iframe width="330" height="230" src="https://www.youtube.com/embed/Y-OhzQpsRwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+                        <li><iframe width="330" height="230" src="https://www.youtube.com/embed/BhvLIzVL8_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
                     </ul>
                 </div>
             </section>
-            <section class="contacto" id="Contacto">
-                <h2>Contacto</h2>
-                <p>Necesitas otro tipo de información?</p>
-                <p>Contáctame...</p>
-                <form action="">
-                    <fieldset class="form">
-                        <label id="label-name"for="">Nombre/s</label>
-                        <input type="text" class="names" id="names">
-                        <br>
-                        <br>
-                        <label id="label-lastname"for="">Apellido/s</label>
-                        <input type="text" class="names" id="lastname">
-                        <br>
-                        <br>
-                        <label for="">Correo</label>
-                        <input type="email" id="mail">
-                        <br>
-                        <br>
-                        <label for="">Número</label>
-                        <input type="number" id="phone">
-                        <br><br>
-                        <label for="">Mensaje</label>
-                        <br><br>
-                        <textarea name="mensaje" id="msg" cols="30" rows="5"></textarea>
-                        <br>
-                        <button type="submit" id="btn-send">Enviar</button>
-                    </fieldset>
-                    
-                </form>
+            <section id="Contacto">
+                <div class="texto-contacto">
+                    <h2>Contacto</h2>
+                    <br>
+                    <p>Necesitas otro tipo de información?</p>
+                    <p>Contáctame...</p>
+                </div>
+                <br>
+                <div class="contacto">
+                    <form action="">
+                        <fieldset class="form">
+                            <label id="label-name"for="">Nombre/s</label>
+                            <input type="text" class="names" id="names">
+                            <br>
+                            <br>
+                            <label id="label-lastname"for="">Apellido/s</label>
+                            <input type="text" class="names" id="lastname">
+                            <br>
+                            <br>
+                            <label for="" id="correo">Correo</label>
+                            <input type="email" class="names" id="mail">
+                            <br>
+                            <label for="" id="num">Número</label>
+                            <input type="number" class="names" id="phone">
+                            <br>
+                            <label for="" id="mensaje-label">Mensaje</label>
+                            <br>
+                            <textarea name="mensaje" id="msg" cols="30" rows="5"></textarea>
+                        </fieldset>
+                        <div class="botones">
+                            <button type="submit" id="btn-send">Enviar</button>
+                            <button type="reset" id="btn-reset">Reset</button>
+                        </div>
+                      
+                        
+                    </form>
+                </div>
+
             </section>
         </article>
     </main>
     <br>
     <footer>
-
+        <div>
+            <ul>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="#about-me">Sobre mí</a></li>
+                <li><a href="#skills&tools">Skills</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </div>
+        <br><br>
+        <p>©Copyright 2023 -- Acosta Gabriel H. M.</p>
     </footer>
     <script src="https://kit.fontawesome.com/00169cc5c6.js" crossorigin="anonymous"></script>
 </body>
